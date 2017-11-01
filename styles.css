@@ -63,10 +63,17 @@ h1 {
 
 h2 {
 	text-align: center;
-	font-size: 3em;
+	font-size:  4em;
 	padding-bottom: 20px;
 	color: #B7001E;
 	font-family: 'Kameron', serif;
+}
+
+p {
+	font-family: 'Raleway', sans-serif;
+	margin: 10px 0px 10px 0px;
+	color: #242537;
+	line-height: 125%;
 }
 
 span {
