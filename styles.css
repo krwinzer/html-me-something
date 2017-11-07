@@ -76,10 +76,6 @@ p {
 	line-height: 125%;
 }
 
-span {
-	color: #B7001E;
-}
-
 article {
 	margin: 50px;
 	text-align: justify;
@@ -172,6 +168,42 @@ h2 a:hover {
 	text-align: center;
 	vertical-align: center;
 	width: 100%;
+}
+
+@keyframes tada {
+  from {
+    transform: scale3d(1, 1, 1);
+  }
+
+  10%, 20% {
+    transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg);
+  }
+
+  30%, 50%, 70%, 90% {
+    transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+  }
+
+  40%, 60%, 80% {
+    transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+  }
+
+  to {
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+.tada {
+  animation-name: tada;
+}
+
+/* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
+
+span {
+	display: inline-block;
+	color: #B7001E;
+	animation-name: tada;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
 }
 
 #left-container {
