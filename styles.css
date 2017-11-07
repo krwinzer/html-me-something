@@ -107,7 +107,7 @@ footer {
   margin-left: 0;
   padding: 10px 20px 10px 20px;
   display: inline-block;
-  font-size: 1.75em;
+  font-size: 1.50em;
 }
 
 a:link {
@@ -199,6 +199,14 @@ h2 a:hover {
 /* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
 
 span {
+	display: inline-block;
+	color: #B7001E;
+	animation-name: tada;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+}
+
+.mini-hearts {
 	display: inline-block;
 	color: #B7001E;
 	animation-name: tada;
